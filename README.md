@@ -1,4 +1,4 @@
-# Alzheimer's Disease Classification using Deep Learning (VGG16)
+# Alzheimer's Disease Classification using Hybrid model
 
 ## 📌 Project Overview
 This project focuses on the classification of Alzheimer's Disease using Deep Learning techniques. The model uses MRI brain images and applies transfer learning with the VGG16 architecture for feature extraction and classification. The primary objective of this project is to predict whether an MRI brain scan belongs to an Alzheimer patient or a Normal patient.
@@ -78,7 +78,7 @@ Alzheimer_Classification.ipynb
 4. Perform dataset balancing using upsampling
 5. Load pre-trained VGG16 model
 6. Extract image features
-7. Train classification model
+7. Train classification model using stacking method
 8. Evaluate model performance
 9. Predict disease from a single MRI image
 
